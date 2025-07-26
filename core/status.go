@@ -32,7 +32,7 @@ func (a *AnthropicStatus) IsElevatedErrors() bool {
 		return false
 	}
 
-	if strings.Contains(target.Description, "&gt;Resolved&lt") {
+	if strings.Contains(target.Description, "<strong>Resolved</strong>") {
 		return false
 	}
 

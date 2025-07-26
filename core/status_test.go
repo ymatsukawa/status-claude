@@ -29,7 +29,7 @@ func TestIsElevatedErrors(t *testing.T) {
 			items: []*gofeed.Item{
 				{
 					Title:       "Elevated errors in Claude API",
-					Description: "Issue resolved &gt;Resolved&lt",
+					Description: "Issue resolved <strong>Resolved</strong>",
 					Link:        "https://claude.example.com/incidents/123",
 				},
 			},
